@@ -9,3 +9,5 @@
 5. Fill `slave2.dat` with the strategy `s1` found in step 3, run `./solve slave2` and write down the strategy support for the new `s2`.
 6. Expand the action sets and utility matrices in `master.dat` with the new supports found in steps 4 and 5.
 7. Go back to step 3.
+
+Repeat 3 times.
