@@ -1,0 +1,17 @@
+set P := 1 2;
+
+set I := A B C;
+set J := A B C;
+
+param U1: A B C :=
+        A 2 1 0
+        B 1 2 0
+        C 0 0 0;
+
+param U2: A B C :=
+        A 1 2 0
+        B 2 1 0
+        C 0 0 0;
+
+param M :=  1 100
+            2 100;

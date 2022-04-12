@@ -1,0 +1,9 @@
+model master.mod;
+data  master.dat;
+
+option solver gurobi;
+
+solve;
+
+display s1;
+display s2;

@@ -1,0 +1,8 @@
+model slave1.mod;
+data  slave1.dat;
+
+option solver gurobi;
+
+solve;
+
+display s1;

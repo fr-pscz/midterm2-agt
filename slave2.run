@@ -1,0 +1,8 @@
+model slave2.mod;
+data  slave2.dat;
+
+option solver gurobi;
+
+solve;
+
+display s2;

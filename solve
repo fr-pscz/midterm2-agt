@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# SETUP
+# =====
+
+# copy files into AMPL directory
+# NOTE: I could add AMPL to the path, but there are too many commands in that
+#       directory and it's safer this way
+cp "${1}.mod" ../"${1}.mod"
+cp "${1}.dat" ../"${1}.dat"
+cp "${1}.run" ../"${1}.run"
+
+# Move to the AMPL directory
+cd ..
+
+# RUN
+# ===
+echo "=== ${1} ==="
+./ampl "${1}.run"
+echo "=============="
+
+# CLEANUP
+# =======
+rm "${1}.mod" "${1}.dat" "${1}.run"
