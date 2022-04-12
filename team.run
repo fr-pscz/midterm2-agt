@@ -1,0 +1,10 @@
+model team.mod;
+data  team.dat;
+
+option solver baron;
+
+solve;
+
+display v;
+display s1;
+display s2;
