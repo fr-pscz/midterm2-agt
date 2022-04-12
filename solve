@@ -2,7 +2,6 @@
 
 # SETUP
 # =====
-
 # copy files into AMPL directory
 # NOTE: I could add AMPL to the path, but there are too many commands in that
 #       directory and it's safer this way
@@ -17,7 +16,6 @@ cd ..
 # ===
 echo "=== ${1} ==="
 ./ampl "${1}.run"
-echo "=============="
 
 # CLEANUP
 # =======
