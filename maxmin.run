@@ -1,0 +1,9 @@
+model maxmin.mod;
+data  maxmin.dat;
+
+option solver gurobi;
+
+solve;
+
+display v;
+display s;

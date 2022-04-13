@@ -1,0 +1,7 @@
+set I := R P S;
+set J := R P S J;
+
+param U:  R  P  S  J :=
+       R  0 -1  1  1
+       P  1  0 -1  0
+       S -1  1  0  0;
